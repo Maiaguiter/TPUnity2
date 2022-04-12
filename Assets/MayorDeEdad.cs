@@ -13,15 +13,15 @@ public class MayorDeEdad : MonoBehaviour
     {
         if (edadusuario >= 18)
         {
-            miTexto.text = "Usted es mayor de edad";
-            Debug.Log("Usted es mayor de edad");
+            miTexto.text = "Es mayor de edad";
+            Debug.Log("Es mayor de edad");
 
         }
 
         else
         {
-            miTexto.text = "Usted no es mayor de edad";
-            Debug.Log("Usted no es mayor de edad");
+            miTexto.text = "No es mayor de edad";
+            Debug.Log("No es mayor de edad");
         }
 
     }
